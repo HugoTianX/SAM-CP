@@ -1,4 +1,4 @@
-The IMDB will be used for fine-tuning after data preparation and will serve as baseline datasets for adversarial attacks. 
+The IMDB will be used for fine-tuning after data preparation and will serve as baseline dataset for adversarial attacks. 
 - **Task**: Sentiment Analysis (Binary Classification)
 - **Content**: Movie reviews with sentiment labels (positive/negative)
 - **Size**: 50,000 reviews
