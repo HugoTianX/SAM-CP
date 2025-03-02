@@ -50,15 +50,15 @@ This repository contains the implementation for the paper *Semantically Improved
 The following datasets will be used for fine-tuning after data preparation and will serve as baseline datasets for adversarial attacks. Please download and place them in the `./data` folder. For more details, see `./data/README.md`.
 
 1. **Dataset Name: IMDB**  
-   - **Download Link**: https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews 
+   - **Download Link**: https://huggingface.co/datasets/stanfordnlp/imdb 
    - **Storage Path**: `./data/IMDB/`
 
 2. **Dataset Name: Yelp**  
-   - **Download Link**: https://www.kaggle.com/datasets/omkarsabnis/yelp-reviews-dataset
+   - **Download Link**: https://huggingface.co/datasets/yelp_polarity
    - **Storage Path**: `./data/Yelp/`
 
 3. **Dataset Name: SST-2**  
-   - **Download Link**: https://github.com/clairett/pytorch-sentiment-classification/tree/master/data/SST2  
+   - **Download Link**: https://huggingface.co/datasets/SetFit/sst2  
    - **Storage Path**: `./data/SST-2/`
 
 ---
@@ -85,3 +85,20 @@ For the reproduction and usage of baseline attack methods, please refer to the f
 
 These repositories provide implementations and guidelines for running baseline adversarial attacks on text models.
 
+---
+
+### Victim Models
+
+The following pre-trained models are used as victim models for baseline attacks:
+
+1. **Muppet-RoBERTa-base**  
+   - **Model Card**: https://huggingface.co/facebook/muppet-roberta-base
+   - **Description**: A robust variant of RoBERTa.
+
+2. **XLNet-base-cased-IMDB**  
+   - **Model Card**: https://huggingface.co/textattack/xlnet-base-cased-imdb
+   - **Description**: XLNet fine-tuned on the IMDB dataset for sentiment analysis.
+
+3. **RoBERTa-base-finetuned-Yelp-Polarity**  
+   - **Model Card**: https://huggingface.co/VictorSanh/roberta-base-finetuned-yelp-polarity
+   - **Description**: RoBERTa fine-tuned on the Yelp Polarity dataset for sentiment classification.
