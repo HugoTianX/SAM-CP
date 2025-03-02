@@ -3,5 +3,6 @@ The IMDB will be used for fine-tuning after data preparation and will serve as b
 - **Content**: Movie reviews with sentiment labels (positive/negative)
 - **Size**: 50,000 reviews
 - **Download**:
+  - https://huggingface.co/datasets/stanfordnlp/imdb
   - https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
   - https://ai.stanford.edu/~amaas/data/sentiment/
