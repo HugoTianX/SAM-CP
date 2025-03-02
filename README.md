@@ -50,15 +50,15 @@ This repository contains the implementation for the paper *Semantically Improved
 The following datasets will be used for fine-tuning after data preparation and will serve as baseline datasets for adversarial attacks. Please download and place them in the `./data` folder. For more details, see `./data/README.md`.
 
 1. **Dataset Name: IMDB**  
-   - **Download Link**: [Kaggle](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)  
+   - **Download Link**: https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews 
    - **Storage Path**: `./data/IMDB/`
 
 2. **Dataset Name: Yelp**  
-   - **Download Link**: [Kaggle](https://www.kaggle.com/datasets/omkarsabnis/yelp-reviews-dataset)  
+   - **Download Link**: https://www.kaggle.com/datasets/omkarsabnis/yelp-reviews-dataset
    - **Storage Path**: `./data/Yelp/`
 
 3. **Dataset Name: SST-2**  
-   - **Download Link**: [GitHub](https://github.com/clairett/pytorch-sentiment-classification/tree/master/data/SST2)  
+   - **Download Link**: https://github.com/clairett/pytorch-sentiment-classification/tree/master/data/SST2  
    - **Storage Path**: `./data/SST-2/`
 
 ---
@@ -79,9 +79,9 @@ python train_xxx.py
 
 For the reproduction and usage of baseline attack methods, please refer to the following repositories:
 
-- **BERT-Attack**: [GitHub](https://github.com/LinyangLee/BERT-Attack)  
-- **CLARE**: [GitHub](https://github.com/cookielee77/CLARE)  
-- **FBA**: [GitHub](https://github.com/MingzeLucasNi/FBA)  
+- **BERT-Attack**: https://github.com/LinyangLee/BERT-Attack 
+- **CLARE**: https://github.com/cookielee77/CLARE 
+- **FBA**: https://github.com/MingzeLucasNi/FBA
 
 These repositories provide implementations and guidelines for running baseline adversarial attacks on text models.
 
