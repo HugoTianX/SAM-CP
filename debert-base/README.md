@@ -21,5 +21,5 @@ This folder is intended to store the parameter files for the `deberta-base` mode
    pip install transformers
    ```
 
-1. **Download the Model**
+1. **Download the MLM**
    `python load_model_with_debert-base.py`
