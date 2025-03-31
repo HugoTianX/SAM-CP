@@ -21,6 +21,6 @@ This folder is intended to store the parameter files for the `bert-base-uncased`
    pip install transformers
    ```
 
-1. **Download the Model**
+1. **Download the MLM**
    `python load_model_with_bert-base-uncased.py`
 
